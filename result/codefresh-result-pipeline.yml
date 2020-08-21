@@ -12,4 +12,4 @@ steps:
     type: push
     candidate: '${{BuildingDockerImage}}'
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}'
-    registry: cfcr # You can set this to the name given of another registry
+    registry: cthakar # You can set this to the name given of another registry
